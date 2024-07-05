@@ -6,12 +6,6 @@ This project is a simple React application designed to demonstrate various featu
 
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Components](#components)
-- [Deployment](#deployment)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
