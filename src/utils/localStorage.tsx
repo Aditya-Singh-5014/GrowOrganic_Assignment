@@ -1,3 +1,5 @@
+import { User } from "../models/User";
+
 export const saveUserToLocalStorage = (user: User) => {
   localStorage.setItem("user", JSON.stringify(user));
 };

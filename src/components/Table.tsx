@@ -15,13 +15,7 @@ const Table: React.FC<TableProps> = ({ rows }) => {
   ];
 
   return (
-    <DataGrid
-      className="data-grid"
-      rows={rows}
-      columns={columns}
-      pageSize={25}
-      autoHeight
-    />
+    <DataGrid className="data-grid" rows={rows} columns={columns} autoHeight />
   );
 };
 
