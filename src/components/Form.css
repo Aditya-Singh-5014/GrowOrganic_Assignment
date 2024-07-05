@@ -1,0 +1,30 @@
+/* Reset autofill background color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid #ced4da;
+  -webkit-text-fill-color: #495057;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Your existing styles */
+
+.container {
+  margin-top: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-button {
+  margin-top: 20px;
+}

@@ -1,0 +1,28 @@
+.department-list {
+  margin-top: 20px;
+  background-color: #f8f9fa; /* Light grey background */
+  border-radius: 8px;
+  color: #333; /* Dark grey text */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px; /* Add padding inside the list */
+}
+
+.department-item {
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #ffffff; /* White background for department items */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 4px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.sub-department-item {
+  padding-left: 40px; /* More indentation for sub-department items */
+  padding-right: 16px;
+  background-color: #f0f0f0; /* Slightly darker background for sub-departments */
+  border: 1px solid #ccc; /* Slightly darker border */
+  border-radius: 4px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
