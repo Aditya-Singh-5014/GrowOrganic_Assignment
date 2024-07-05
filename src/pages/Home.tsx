@@ -1,7 +1,7 @@
 import React from "react";
 import Form from "../components/Form";
 import { Container, Typography } from "@mui/material";
-import "./Home.css";
+import "../assets/styles/Home.css";
 
 const Home: React.FC = () => {
   return (

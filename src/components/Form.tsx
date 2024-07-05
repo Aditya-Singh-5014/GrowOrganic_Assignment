@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { TextField, Button, Container, Typography } from "@mui/material";
 import { saveUserToLocalStorage } from "../utils/localStorage";
 import { useNavigate } from "react-router-dom";
-import "./Form.css";
+import "../assets/styles/Form.css";
 
 const Form: React.FC = () => {
   const [name, setName] = useState("");

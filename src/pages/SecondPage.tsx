@@ -5,7 +5,7 @@ import DepartmentList from "../components/DepartmentList";
 import { useFetch } from "../hooks/useFetch";
 import { getUserFromLocalStorage } from "../utils/localStorage";
 import { Navigate } from "react-router-dom";
-import "./SecondPage.css";
+import "../assets/styles/SecondPage.css";
 
 const SecondPage: React.FC = () => {
   const { data, loading, error } = useFetch(

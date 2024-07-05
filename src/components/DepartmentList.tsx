@@ -8,7 +8,7 @@ import {
   Collapse,
 } from "@mui/material";
 import { ExpandLess, ExpandMore } from "@mui/icons-material";
-import "./DepartmentList.css";
+import "../assets/styles/DepartmentList.css";
 
 const departments = [
   {

@@ -1,6 +1,6 @@
 import React from "react";
 import { DataGrid } from "@mui/x-data-grid";
-import "./Table.css";
+import "../assets/styles/Table.css";
 
 interface TableProps {
   rows: any[];

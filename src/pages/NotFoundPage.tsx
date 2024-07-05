@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Typography } from "@mui/material";
-import "./NotFoundPage.css";
+import "../assets/styles/NotFoundPage.css";
 
 const NotFoundPage: React.FC = () => {
   return (
